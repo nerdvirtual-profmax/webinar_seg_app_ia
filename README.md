@@ -41,12 +41,48 @@ Abra o terminal e clone o projeto na sua máquina:
 ```bash
 git clone [https://github.com/nerdvirtual-profmax/webinar_seg_app_ia.git](https://github.com/nerdvirtual-profmax/webinar_seg_app_ia.git)
 cd webinar_seg_app_ia
+```
 
 ### 2. Instalar e Iniciar o Ollama (LLM Local)
 Certifique-se de que o motor do Ollama está instalado e baixe o modelo Llama 3
 ```bash
 # Inicie o serviço do Ollama em segundo plano (ou em outro terminal)
 ollama serve &
+```
 
-# Baixe o modelo base (caso ainda não tenha)
-ollama pull llama3
+### 3. Configurar o Ambiente Virtual Python
+Crie e ative um ambiente virtual isolado para o projeto
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 4. Instalar as Dependências
+Instale as bibliotecas necessárias (Streamlit e OpenAI SDK)
+```bash
+pip install --upgrade pip
+pip install streamlit openai
+```
+
+---
+
+## Como Executar o Laboratório
+Para facilitar a inicialização rápida do ambiente, você pode utilizar o script automatizado incluído no projeto ou rodar manualmente.
+
+# Opção A: Usando o Script de Inicialização Rápida
+Dê permissão de execução ao script (apenas na primeira vez) e execute-o:
+```bash
+chmod +x start_lab.sh
+./start_lab.sh
+```
+
+# Opção B: Execução Manual
+Caso prefira rodar manualmente:
+Ative o ambiente virtual: source venv/bin/activate
+Inicie a aplicação Streamlit:
+```bash
+streamlit run (nome do arquivo python)
+Exemplo:  streamlit run chatboot_desprotegido_atendimento_cliente_prompt_injection.py
+```
+
+# Abra o navegador web (ex. google chrome ou firefox) e digite o endereço URL informado no terminal shell.
