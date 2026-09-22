@@ -68,14 +68,14 @@ pip install streamlit openai
 ## Como Executar o Laboratório
 Para facilitar a inicialização rápida do ambiente, você pode utilizar o script automatizado incluído no projeto ou rodar manualmente.
 
-# Opção A: Usando o Script de Inicialização Rápida
+## Opção A: Usando o Script de Inicialização Rápida
 Dê permissão de execução ao script (apenas na primeira vez) e execute-o:
 ```bash
 chmod +x start_lab.sh
 ./start_lab.sh
 ```
 
-# Opção B: Execução Manual
+## Opção B: Execução Manual
 Caso prefira rodar manualmente:
 Ative o ambiente virtual: source venv/bin/activate
 Inicie a aplicação Streamlit:
@@ -84,4 +84,4 @@ streamlit run (nome do arquivo python)
 Exemplo:  streamlit run chatboot_desprotegido_atendimento_cliente_prompt_injection.py
 ```
 
-# Abra o navegador web (ex. google chrome ou firefox) e digite o endereço URL informado no terminal shell.
+## Abra o navegador web (ex. google chrome ou firefox) e digite o endereço URL informado no terminal shell.
