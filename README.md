@@ -7,11 +7,10 @@ O projeto foi desenvolvido para fins educacionais, auxiliando estudantes e profi
 ---
 
 ## Sumário
-1. [Arquitetura do Laboratório](#-arquitetura-do-laboratório)
-2. [Pré-requisitos](#-pré-requisitos)
-3. [Guia de Instalação no Kali Linux](#-guia-de-instalação-no-kali-linux)
-4. [Como Executar o Laboratório](#-como-executar-o-laboratório)
-5. [Estrutura do Projeto](#-estrutura-do-projeto)
+1. Arquitetura do Laboratório
+2. Pré-requisitos
+3. Guia de Instalação no Kali Linux
+4. Como Executar o Laboratório
 
 ---
 
