@@ -113,7 +113,7 @@ with tab_hacker:
     st.dataframe(st.session_state.captured_logs_safe)
 
   st.info(
-      "💡 **Explicação para a aula:** Com uma arquitetura de defesa em"
+      " **Explicação:** Com uma arquitetura de defesa em"
       " camadas (validação de input, isolamento por delimitadores e inspeção"
       " de output), mesmo que o modelo receba um prompt malicioso, a"
       " infraestrutura impede o vazamento de dados."
