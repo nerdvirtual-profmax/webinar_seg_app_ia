@@ -146,7 +146,7 @@ with tab_hacker:
     )
 
   st.info(
-      "💡 **Explicação para a aula:** Conforme múltiplos utilizadores ou"
+      " explicação - Conforme múltiplos utilizadores ou"
       " requisições caem no vetor de exfiltração, o painel do atacante vai"
       " consolidando uma base de dados completa com informações"
       " confidenciais de forma automatizada."
